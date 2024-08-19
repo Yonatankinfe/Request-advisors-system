@@ -35,3 +35,6 @@ This repository contains a web-based system designed to facilitate smooth commun
 Feel free to submit issues, fork the repository, and send pull requests. Contributions are welcome!
 
 ## Some images what the website looks like 
+![IMG_20240819_111013_873.jpg](https://github.com/user-attachments/assets/b440ac22-0018-48a4-877f-8aff7bec6879)
+
+![IMG_20240819_111010_854.jpg](https://github.com/user-attachments/assets/9ef97f83-467a-4de9-a966-c90d7dd8f05f)
