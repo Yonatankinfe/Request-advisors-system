@@ -33,3 +33,5 @@ This repository contains a web-based system designed to facilitate smooth commun
 ## Contributing
 
 Feel free to submit issues, fork the repository, and send pull requests. Contributions are welcome!
+
+## Some images what the website looks like 
