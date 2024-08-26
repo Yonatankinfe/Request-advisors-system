@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    font-family: Arial, sans-serif;
+    position: relative;
+    height: 100vh;
+}
+
+.welcome-container {
+    background: linear-gradient(to top, #6a11cb, #6a11cb, #2575fc);
+    padding: 60px 400px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 2s ease-in-out;
+    text-align: center;
+}
+
+.welcome-text {
+    color: #ffffff;
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #dbd9dd;
+    padding-left: 400px;
+    padding-right: 400px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 0;
+    animation: fadeIn 2s ease-in-out;
+    border-top-right-radius: 0;
+}
+
+.navbar a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: purple;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 2px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #6a0dad;
+    color: #ffffff;
+}
+
+.card {
+    background-color: #f9f9f9;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    margin-left: 60px;
+    margin-top: 50px;
+    position: absolute;
+    left: 20px;
+    top: 220px; /* Adjust this value based on the navbar height */
+}
+
+.card-title {
+    color: #4b0082;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    background: linear-gradient(45deg, #6a11cb, #2575fc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; /* Add standard property as well */
+   
+}
+
+.contact-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-list li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.textbox {
+    width: calc(100% - 40px); /* Adjust width to fit within the container with padding */
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #4b0082;
+    font-size: 1em;
+    resize: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+ .new-card-title {
+    color: #4b0082;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    background: linear-gradient(45deg, #6a11cb, #2575fc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; /* Add standard property as well */
+/* Add fallback for non-supporting browsers */
+}
